@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 8080;
 // Initially, I assigned the variable PORT using let but then realized that the port should stay consistent without change, so I changed it to const.
 
 // Now I want my app to listen on port 8080
-app.listen(port, function() {
+app.listen(PORT, function() {
   console.log(`I am listening on port ${PORT}`);
   //console log to show that it is currently listening on port 8080
 });
