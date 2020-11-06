@@ -17,12 +17,12 @@ app.use(function(req, res, next) {
 });
 
 // Using my environment variable, I will make a port.
-const port = process.env.port || 8080;
+const PORT = process.env.PORT || 8080;
 // Initially, I assigned the variable PORT using let but then realized that the port should stay consistent without change, so I changed it to const.
 
 // Now I want my app to listen on port 8080
 app.listen(port, function() {
-  console.log(`I am listening on port ${port}`);
+  console.log(`I am listening on port ${PORT}`);
   //console log to show that it is currently listening on port 8080
 });
 
