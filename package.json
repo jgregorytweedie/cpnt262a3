@@ -1,0 +1,25 @@
+{
+  "name": "cpnt262a3",
+  "version": "1.0.0",
+  "description": "-link to my GH repo: \r -Link to my heroku app: https://cpnt262a3tweedie.herokuapp.com/\r -Currently the localhost is working fine, however not on heroku?",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgregorytweedie/cpnt262a3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgregorytweedie/cpnt262a3/issues"
+  },
+  "homepage": "https://github.com/jgregorytweedie/cpnt262a3#readme"
+}
